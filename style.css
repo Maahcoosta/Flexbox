@@ -1,0 +1,80 @@
+* {
+
+    font-size: 30px;
+}
+
+.geral{
+    display: flex;
+    background-color: rgb(176, 195, 212);
+    height: 630px; 
+}
+
+.left{
+    flex:1;
+    display: flex;
+    flex-direction:column ;
+    background-color: cadetblue;
+    
+}
+
+.img-perfil {
+    flex: 1;
+    background-color: rgb(69, 81, 92);
+}
+.contato {
+    flex: 1;
+    background-color: rgb(25, 45, 63);
+}
+.formacao {
+    flex: 1;
+    background-color: rgb(95, 120, 143);
+}
+
+
+
+.right{
+    display: flex;
+    background-color: rgb(45, 89, 90);
+    flex:3;
+    flex-direction:column ;
+
+}
+
+.sobre{
+    flex:1;
+    background-color: rgb(14, 30, 31);
+
+}
+
+.experiencia{
+    display: flex;
+    flex:1;
+    background-color: rgb(76, 169, 175);
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-direction:column ;
+}
+.ano{
+    display: flex;
+    gap: 20px;
+    flex:1;
+    background-color: rgb(10, 69, 73);
+}
+.ano.data{
+    
+    background-color: rgb(105, 184, 153);
+}
+.texto{
+    flex:1;
+    background-color: rgb(58, 114, 91);
+    display: flex;
+}
+
+.competencia{
+    display: flex;
+    flex:1;
+    background-color: rgb(114, 58, 95);
+    align-content: stretch;
+    flex-direction:column;
+}
+
